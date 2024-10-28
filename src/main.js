@@ -4,8 +4,8 @@ import { store } from "./store";
 import "normalize.css/normalize.css";
 // 全局样式
 import "./styles/index.less";
-// tailwindcss
-import "./styles/tailwind.css";
+// unocss
+import "virtual:uno.css";
 // svg icon
 import "virtual:svg-icons-register";
 
