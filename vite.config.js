@@ -63,7 +63,9 @@ export default defineConfig(({ mode }) => {
       // doc: https://github.com/pengzhanbo/vite-plugin-mock-dev-server
       proxy: {
         "^/dev-api": {
-          target: ""
+          target: "",
+          changeOrigin: true, // 修改源
+          rewrite: path => path.replace(/^\/dev-api/, "") // 重写路径
         }
       }
     },
