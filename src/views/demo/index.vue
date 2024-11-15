@@ -4,7 +4,7 @@ import { reactive } from "vue";
 const contentList = reactive([
   "✔ ⚡ Vue3 + Vite4",
   "✔ ✨ Vant4 组件库",
-  "✔ 🌀 Tailwindcss 原子类框架",
+  "✔ 🌀 Unocss 原子类框架",
   "✔ 🍍 Pinia 状态管理",
   "✔ 🌓 支持深色模式",
   "✔ Vue-router 4",
